@@ -25,3 +25,4 @@ Route::get('/Todo-update/{id}', 'TodoController@edit');
 Route::post('/edit', 'TodoController@update');
 Route::get('/delete/{id}', 'TodoController@delete');
 Route::post('upload','TodoController@upload');
+Route::get('/mewan', 'TodoController@mewan');

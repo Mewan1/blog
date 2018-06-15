@@ -20,7 +20,10 @@ public function index()
    }
 
 
-
+public function mewan()
+{
+  return view ('Todo.mewan');
+}
 
 
 
